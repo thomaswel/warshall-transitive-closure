@@ -1,0 +1,5 @@
+warshall_generic.adb:9:04: warning: types for unchecked conversion have different sizes
+warshall_generic.adb:38:37: warning: index for "file_name" may assume lower bound of 1
+warshall_generic.adb:38:37: warning: suggested replacement: "file_name'First"
+warshall_generic.adb:38:41: warning: index for "file_name" may assume lower bound of 1
+warshall_generic.adb:38:41: warning: suggest replacement of "file_name'Length" by "file_name'Last"

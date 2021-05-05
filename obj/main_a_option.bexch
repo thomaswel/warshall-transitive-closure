@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main_a_option.o
+[PROJECT FILES]
+C:\Users\thoma\Desktop\Code\ada\COSC3319_Assignment1_A_Option\a1_a_option.gpr
+20200209231044
+[BOUND OBJECT FILES]
+C:\Users\thoma\Desktop\Code\ada\COSC3319_Assignment1_A_Option\obj\warshall_generic.o
+C:\Users\thoma\Desktop\Code\ada\COSC3319_Assignment1_A_Option\obj\main_a_option.o
+[GENERATED SOURCE FILES]
+b__main_a_option.ads
+b__main_a_option.adb
+b__main_a_option.ali
+[RESULTING OPTIONS]
+-LC:\Users\thoma\Desktop\Code\ada\COSC3319_Assignment1_A_Option\obj\
+-LC:\Users\thoma\Desktop\Code\ada\COSC3319_Assignment1_A_Option\obj\
+-LC:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

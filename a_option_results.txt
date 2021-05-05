@@ -1,0 +1,29 @@
+A OPTION RESULTS:
+
+Data Input 1:
+93AbaJimBobJimJoeKenKenJoeKenTimKenTomSueTimTimSueTomKenJimAba
+Data Output 1:
+    ABA BOB JOE KEN SAM SUE TIM TOM JIM 
+ABA   1   0   0   0   0   0   0   0   1 
+BOB   1   0   0   0   0   0   0   0   1 
+JOE   0   0   1   1   0   1   1   1   0 
+KEN   0   0   1   1   0   1   1   1   0 
+SAM   0   0   0   0   0   0   0   0   0 
+SUE   0   0   0   0   0   1   1   0   0 
+TIM   0   0   0   0   0   1   1   0   0 
+TOM   0   0   1   1   0   1   1   1   0 
+JIM   1   0   0   0   0   0   0   0   1 
+
+
+Data Input 2:
+72x1x2x2x1x3x2x3x4x4x3x4x5x5x4x5x6x6x7
+Data Output 2:
+   X1 X2 X3 X4 X5 X6 X7 
+X1  1  1  0  0  0  0  0 
+X2  1  1  0  0  0  0  0 
+X3  1  1  1  1  1  1  1 
+X4  1  1  1  1  1  1  1 
+X5  1  1  1  1  1  1  1 
+X6  0  0  0  0  0  0  1 
+X7  0  0  0  0  0  0  0 
+

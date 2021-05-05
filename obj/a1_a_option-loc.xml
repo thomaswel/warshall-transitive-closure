@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\thoma\Desktop\Code\ada\COSC3319_Assignment1_A_Option\a1_a_option.gpr</vfs_file>
+    <file_marker column=" 27" line=" 10" >
+      <vfs_project>C:\Users\thoma\Desktop\Code\ada\COSC3319_Assignment1_A_Option\a1_a_option.gpr</vfs_project>
+      <vfs_file>C:\Users\thoma\Desktop\Code\ada\COSC3319_Assignment1_A_Option\src\main_a_option.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 18" line=" 1" >
+      <vfs_project>C:\Users\thoma\Desktop\Code\ada\COSC3319_Assignment1_A_Option\a1_a_option.gpr</vfs_project>
+      <vfs_file>C:\Users\thoma\Desktop\Code\ada\COSC3319_Assignment1_A_Option\src\warshall_generic.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

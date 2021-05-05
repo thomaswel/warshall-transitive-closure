@@ -1,0 +1,128 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_UNCHECKED_CONVERSION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U warshall_generic%b	warshall_generic.adb	f377fc11 NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+Z ada.text_io.enumeration_io%s
+W unchecked_conversion%s
+
+U warshall_generic%s	warshall_generic.ads	e130c3d7 BN EE NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-tienau.ads		20190518041256 6a9c157b ada.text_io.enumeration_aux%s
+D a-tienio.ads		20190518041256 2e79c9bf ada.text_io.enumeration_io%s
+D a-tienio.adb		20190518041256 c9e6b5af ada.text_io.enumeration_io%b
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D system.ads		20190518041258 32a08138 system%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+D unchconv.ads		20190518041256 ca2f9e18 unchecked_conversion%s
+D warshall_generic.ads	20200219022114 4fc416ba warshall_generic%s
+D warshall_generic.adb	20200219051200 d868a1de warshall_generic%b
+G a e
+G c Z s b [warshall_generic standard 10 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 27|1r6 2r5 28|1r6 1r23 5r27
+X 6 a-textio.ads
+57K13*Text_IO 727e16 27|1w10 2r9 28|1w10 1r27 5r31
+64P9*File_Type 28|23r16 24r17
+66n23*In_File{66E9} 28|41r37
+66n32*Out_File{66E9} 28|90r43
+99U14*Create 28|90s10
+100p7 File{64P9} 28|90r18
+101e7 Mode{66E9} 28|90r35
+102a7 Name{string} 28|90r53
+114U14*Open 28|41s7
+115p7 File{64P9} 28|41r13
+116e7 Mode{66E9} 28|41r29
+117a7 Name{string} 28|41r46
+129U14*Close 28|115s10 120s7 125s10 128s10
+166V13*Is_Open{boolean} 28|124s10 127s10
+312V13*End_Of_File{boolean} 28|63s20
+312p26 File{64P9} 28|63r33
+378U14*Get 28|43s7 44s7
+386U14*Put 28|100s10 113s13
+451U14*Get 28|64s13 65s13
+459U14*Put 28|92s13 96s13 97s13 103s13 104s13 107s19 110s16 111s16
+547X4*End_Error 28|123r12
+X 8 a-tienio.ads
+26k21*Enumeration_IO 76e31 28|5r39
+X 26 unchconv.ads
+20v10*Unchecked_Conversion 28|2w6 9r39
+X 27 warshall_generic.ads
+8E9 label 28|5r54 57r19 58r19 66r23 67r23 68r23 69r23 95r19 96r26 103r26
+. 103r38
+10k9*warshall_generic 8z9 21l5 21e21 28|3b14 133l5 133t21
+13A9*Boolean_Matrix(integer)<integer><integer> 28|52r16
+15V14*"OR"{integer} 15>19 15>22 28|11b14 18l9 18t12 82s46
+15i19 x{integer} 28|11b19 13r10
+15i22 y{integer} 28|11b22 13r14
+18U14*makeBMR 18>24 28|21b14 131l8 131t15
+18a24 file_name{string} 28|21b23 25r39 38r27 38r41 41r54
+X 28 warshall_generic.adb
+5K12 LabelIO[8|26] 6r8
+9V13 characterToInteger[26|20]{integer} 45s15 47s21
+23p7 fileIn{6|64P9} 41m21 41r21 43r11 44r11 63r41 64r17 65r17 120m13 120r13
+. 124r19 125m17 125r17
+24p7 fileOut{6|64P9} 90m26 90r26 92r17 96r17 97r17 100r15 103r17 104r17 107r23
+. 110r21 111r20 113r17 115m17 115r17 127r19 128m17 128r17
+25a7 file_output_name{string} 38m7 90r61
+27e7 sizeChar{character} 43m19 45r34
+28i7 size{integer} 45m7 46m7 46r15 52r34 52r43
+32e7 labelChar{character} 44m19 47r40
+33i7 label_size{integer} 47m7 48m7 48r21 54r29 55r29 91r25 106r31
+52a10 bmr{27|13A9} 74m13 78r24 79r27 80r19 81r33 82m22 82r36 82r49 102r24
+. 105r27 110r46
+54a10 tempS1{string} 64m25 66r35
+55a10 tempS2{string} 65m25 67r35
+57*10 tempL1{27|8E9} 66m13 68r33
+58*10 tempL2{27|8E9} 67m13 69r33
+60i10 tempP1{integer} 68m13 71m13 71r23 74r17
+61i10 tempP2{integer} 69m13 72m13 72r23 74r25
+78i14 i{integer} 80r26 82r53
+79i17 j{integer} 80r23 82r27 82r40
+81i23 k{integer} 82r30 82r43 82r56
+91i14 i{integer}
+95*14 i{27|8E9} 96r38
+102i14 i{integer} 103r48 110r51
+105i17 j{integer} 110r54
+106i20 k{integer}
+

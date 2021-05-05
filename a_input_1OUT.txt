@@ -1,0 +1,11 @@
+    ABA BOB JOE KEN SAM SUE TIM TOM JIM 
+ABA   1   0   0   0   0   0   0   0   1 
+BOB   1   0   0   0   0   0   0   0   1 
+JOE   0   0   1   1   0   1   1   1   0 
+KEN   0   0   1   1   0   1   1   1   0 
+SAM   0   0   0   0   0   0   0   0   0 
+SUE   0   0   0   0   0   1   1   0   0 
+TIM   0   0   0   0   0   1   1   0   0 
+TOM   0   0   1   1   0   1   1   1   0 
+JIM   1   0   0   0   0   0   0   0   1 
+
